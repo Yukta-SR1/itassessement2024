@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services</title>
+  <link rel="stylesheet" href="services.css">
+</head>
+<body>
+    <header>
+        <img src="Manda Hospital.png" alt="Website Logo" id="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html"><p>Home</p></a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="title">
+        <div class="container">
+            <h2>Our Medical Services</h2>
+            <p>Providing quality healthcare services to our community</p>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <div class="services-grid">
+                <div class="service-card" id="emergency">
+                    <div class="icon">🚑</div>
+                    <h4>Emergency Care</h4>
+                    <p>24/7 emergency medical services with experienced medical professionals to handle critical situations.</p>
+                    <br>
+                    <a href="#booking" class="btn">BOOK</a>
+                </div>
+                <div class="service-card" id="ct-scan">
+                    <div class="icon">🔍</div>
+                    <h4>CT Scan</h4>
+                    <p>Advanced CT scanning equipment providing detailed cross-sectional images for accurate diagnosis of diseases.</p>
+                    <br>
+                    <a href="#booking" class="btn">BOOK</a>
+                </div>
+                <div class="service-card" id="physiotherapy">
+                    <div class="icon">🤸</div>
+                    <h4>Physiotherapy</h4>
+                    <p>Comprehensive physical therapy services to help patients recover movement and function after injury, illness, or disability.</p>
+                    <br>
+                    <a href="#booking" class="btn">BOOK</a>
+                </div>
+                <div class="service-card" id="ecg">
+                    <div class="icon">💓</div>
+                    <h4>ECG</h4>
+                    <p>Electrocardiogram tests to monitor heart health and detect cardiac abnormalities with modern equipment.</p>
+                    <br>
+                    <a href="#booking" class="btn">BOOK</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="booking" id="booking">
+        <div class="container">
+            <h4>Book an Appointment</h4>
+            <form id="appointment-form">
+                <table class="booking-table">
+                    <tr>
+                        <td><label for="full-name">Full Name:</label></td>
+                        <td><input type="text" id="full-name" name="full-name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Phone Number:</label></td>
+                        <td><input type="tel" id="phone" name="phone" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="service">Service:</label></td>
+                        <td>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service or a department</option>
+                                <option value="emergency">Emergency Care</option>
+                                <option value="ct-scan">CT Scan</option>
+                                <option value="physiotherapy">Physiotherapy</option>
+                                <option value="ecg">ECG</option>
+                                <option value="dermatology">Dermatology</option>
+                                <option value="ent">ENT</option>
+                                <option value="cardiology">Cardiology</option>
+                                <option value="gynaecology">Gynaecology</
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="date">Date:</label></td>
+                        <td><input type="date" id="date" name="date" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="time">Time:</label></td>
+                        <td><input type="time" id="time" name="time" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="notes">Additional Notes:</label></td>
+                        <td><textarea id="notes" name="notes" rows="4"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="submit-row">
+                            <button type="submit" class="btn btn-submit">Book Appointment</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+                        <h3 align="center">Manda Hospital</h3>
+                        <p align="center">Koteshwor-32<br><br>Kathmandu, Nepal</p>
+                <div class="footer-links" align="center">
+                    <h3>Quick Access</h3>
+                    <ul>
+                        <li><a href="services.html"><u>All Services</u></a></li>
+                        <li><a href="doctors.html"><u>Find a Doctor</u></a></li>
+                        <li><a href="gallery.html"><u>Pictures</u></a></li>
+                        <li><a href="contact.html"><u>Contact Us</u></a></li>
+                    </ul>
+                </div>        
+    <div class="footer-container">
+        <p>© 2025 Manda Hospital Pvt. Ltd. All rights reserved.</p>
+    </div>
+   </footer>
+<script src="services.js"></script>
+   </body>
+   </html>
