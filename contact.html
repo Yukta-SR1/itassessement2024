@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <img src="Manda Hospital.png" alt="Website Logo" id="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html"><p>Home</p></a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-box">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>We're here to help. Reach out to us with any questions or concerns.</p>
+            </div>
+        </section>
+
+        <section class="contact-info">
+            <div class="container">
+                <div class="info-box">
+                    <h3>Contact Information</h3>
+                    <br>
+                    <div class="info-item">
+                        <strong>Address:</strong> Koteshwor-32, Kathmandu, Nepal
+                    </div>
+                    <div class="info-item">
+                        <strong>Phone:</strong> +977 531946
+                    </div>
+                    <div class="info-item">
+                        <strong>Email:</strong><a href="mailto:contact@mandahospital.com" style="color: purple;"> contact@mandahospital.com</a> 
+                    </div>
+                    <div class="info-item">
+                        <strong>Hours:</strong> Monday - Friday: 9AM - 7PM,
+                        Saturday - Sunday: 10AM - 5PM<br>                        
+                    </div>
+                </div>
+
+                <div class="form-box">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm" action="message received.html" target="_blank">
+                        <table class="contact-table">
+                            <tr>
+                                <td><label for="name">Full Name:</label></td>
+                                <td><input type="text" id="name" name="name" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="email">Email Address:</label></td>
+                                <td><input type="email" id="email" name="email" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="phone">Phone Number:</label></td>
+                                <td><input type="tel" id="phone" name="phone"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="department">Department:</label></td>
+                                <td>
+                                    <select id="department" name="department">
+                                        <option value="">Select a department</option>
+                                        <option value="dermatology">Dermatology</option>
+                                        <option value="ent">ENT</option>
+                                        <option value="cardiology">Cardiology</option>
+                                        <option value="gynaecology">Gynaecology</option>
+                                        <option value="feedback">Feedback</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="message">Your Message:</label></td>
+                                <td><textarea id="message" name="message" rows="5" required></textarea></td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" class="submit-row">
+                                    <button type="submit" class="btn">Send Message</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </section>
+        </section>
+
+    </main>
+
+    <footer>
+   <footer>
+    <h3 align="center">Manda Hospital</h3>
+    <p align="center">Koteshwor-32<br><br>Kathmandu, Nepal</p>
+<div class="footer-links" align="center">
+<h3>Quick Access</h3>
+<ul>
+    <li><a href="services.html"><u>All Services</u></a></li>
+    <li><a href="doctors.html"><u>Find a Doctor</u></a></li>
+    <li><a href="gallery.html"><u>Pictures</u></a></li>
+    <li><a href="contact.html"><u>Contact Us</u></a></li>
+</ul>
+</div>        
+    <div class="footer-container">
+        <p>© 2025 Manda Hospital Pvt. Ltd. All rights reserved.</p>
+        
+    </div>
+   </footer>
+   <script src="contact.js"></script>
+   </body>
+   </html>
