@@ -1,0 +1,174 @@
+#logo {
+  width: 150px; 
+  height: 150px; 
+  display: block; 
+  margin-left: 0;
+  margin-right: auto;
+}
+nav
+{
+  background-color: #ED217C;
+  height: 40px;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #CAF0F8;
+  z-index: 1000; 
+}
+    body
+    {
+      font-size: 14px;
+      font-family: Arial, sans-serif;
+      background-color: #CAF0F8;
+      padding-top: 200px;
+    }
+    ul
+    {
+      padding:0;
+      list-style: none;
+      background: #ED217C;
+    }
+    ul li
+    {
+      display: inline-block;
+    }
+    ul li a
+    {
+      display: block;
+      padding:10px 25px;
+      color: white;
+      text-decoration: none;
+    }
+    ul li a:hover
+    {
+      color: #ED217C;
+      background: white;
+    }
+/* Footer Styles */
+footer {
+    background-color: #ED217C;
+    color: white;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    text-align: center;
+}
+.footer-container p{
+    margin: 0;
+}
+/* Contact box Section */
+.contact-box {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact-box h2 {
+  
+    margin-bottom: 15px;
+}
+
+.contact-box p {
+    font-size: 16 px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Contact Info Section */
+.contact-info {
+    padding: 60px 0;
+}
+
+.contact-info .container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 40px;
+}
+
+.info-box, .form-box {
+    background-color: #0077b6;
+    color: white;
+    padding: 30px;
+}
+
+.info-box h3, .form-box h3 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.info-item {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.contact-table td {
+  padding: 10px 0;
+  vertical-align: top;
+}
+
+.contact-table td:first-child {
+  width: 30%;
+  padding-right: 15px;
+}
+
+.contact-table label {
+  font-weight: 500;
+}
+
+.inline-label {
+  display: inline;
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+.submit-row {
+  text-align: right;
+  padding-top: 20px;
+}
+
+.nested-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nested-table td {
+  padding: 5px 10px 5px 0;
+}
+
+/* Form Elements */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #0077b6;
+}
+
+

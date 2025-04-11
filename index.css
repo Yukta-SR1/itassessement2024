@@ -1,0 +1,332 @@
+#logo {
+  width: 150px; 
+  height: 150px; 
+  display: block; 
+  margin-left: 0;
+  margin-right: auto;
+}
+nav
+{
+  background-color: #ED217C;
+  height: 40px;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #CAF0F8;
+  z-index: 1000; 
+}
+
+    body
+    {
+      font-size: 14px;
+      font-family: Arial, sans-serif;
+      padding-top:170px;
+      background-color: #CAF0F8;
+    }
+    ul
+    {
+      padding:0;
+      list-style: none;
+      background: #ED217C;
+    }
+    ul li
+    {
+      display: inline-block;
+    }
+    ul li a
+    {
+      display: block;
+      padding:10px 25px;
+      color: white;
+      text-decoration: none;
+    }
+    ul li a:hover
+    {
+      color: #ED217C;
+      background: white;
+    }
+
+footer {
+    background-color: #ED217C;
+    color: white;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    text-align: center;
+}
+.footer-container p{
+    margin: 0;
+}
+
+
+.banner-slider-container {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    margin: 30px auto 0;
+  }
+  
+  .banner-slider-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .banner-slide {
+    min-width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .banner-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  .banner-content {
+    position: absolute;
+    bottom: 60px;
+    left: 50px; 
+    width: 50%; 
+    padding: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px black; 
+  }
+  
+  .banner-content h2 {
+    margin: 0 0 10px 0;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  .banner-content p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .banner-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  .banner-btn {
+    background-color: grey;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .banner-btn:hover {
+    background-color: #ED217C;
+  }
+  
+  .banner-indicators {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .banner-indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: grey;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .banner-indicator.active {
+    background-color: white;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .banner-slider-container {
+      height: 350px;
+      margin-top: 20px; 
+    }
+    
+    .banner-content {
+      left: 30px;
+      width: 70%;
+    }
+    
+    .banner-content h2 {
+      font-size: 1.8rem;
+    }
+    
+    .banner-content p {
+      font-size: 1rem;
+    }
+    
+    .banner-btn {
+      width: 40px;
+      height: 40px;
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .banner-slider-container {
+      height: 250px;
+      margin-top: 15px; 
+    }
+    
+    .banner-content {
+      left: 20px;
+      bottom: 40px;
+      padding: 15px;
+      width: 80%;
+    }
+    
+    .banner-content h2 {
+      font-size: 24px;
+    }
+  }
+  /* appointment-box.css */
+.appointment-section {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding: 80px 0px;
+    box-sizing: border-box;
+  }
+  
+  .appointment-box {
+    background-color: #ED217C;
+    color: white;
+    width: 600px;
+    padding: 80px;
+    border-radius: 60px 0px 0px 60px;
+    
+  }
+  
+  .appointment-box h2 {
+text-align: center;
+  }
+  
+  .appointment-box p {
+    margin: 0 0 40px 0;
+   text-align: center;
+  }
+  
+  .book-btn {
+    background-color: white;
+    color: #ED217C;
+    border: none;
+    padding: 12px 30px;
+    font-weight: bold;
+    cursor: pointer;
+   margin: 0px 250px;
+  }
+  
+  .book-btn:hover {
+    background-color: grey;
+    color: white;
+  }
+
+      /* Container for the sliding text */
+      .marquee-container {
+        width: 100%;
+        overflow: hidden; /* Hide the content outside the container */
+        background-color: #f0f0f0;
+        padding: 10px 0;
+        margin: 0 0 0px 0;
+      }
+  
+      /* Styling the sliding text */
+      .marquee-text {
+        white-space: nowrap;
+        animation: slide 25s linear infinite; 
+        font-size: 24px;
+        font-family: Arial, sans-serif;
+        color: #ED217C;
+      }
+  
+      /* Animation of slider definition */
+      @keyframes slide {
+        from {
+          transform: translateX(100%); /* Start from right */
+        }
+        to {
+          transform: translateX(-100%); /* End at left */
+        }
+      }
+        /* about-box.css */
+.about-section {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  padding: 80px 0px;
+  box-sizing: border-box;
+}
+
+.about-box {
+  background-color: #ED217C;
+  color: white;
+  width: 600px;
+  padding: 80px;
+  border-radius: 0px 60px 60px 0px;
+  
+}
+
+.about-box h2 {
+text-align: center;
+}
+
+.about-box p {
+  margin: 0 0 40px 0;
+ text-align: center;
+}
+
+.contactus-btn {
+  background-color: white;
+  color: #ED217C;
+  border: none;
+  padding: 12px 30px;
+  font-weight: bold;
+  cursor: pointer;
+ margin: 0px 240px;
+}
+
+.contactus-btn:hover {
+  background-color: grey;
+  color: white;
+}
+
+  
